@@ -20,7 +20,7 @@ $Sensitive_password = $configs['Sensitive_password'];
 $id = isset($_GET['id']) ? $_GET['id'] : 'index';
 
 if (stristr($_SERVER['PHP_SELF'], "play") != false) {
-    $contenturl = "http://zuida.me/" . "?m=vod-detail-id-" . $_GET['id'] . ".html";
+    $contenturl = "http://www.zuidazy4.com/" . "?m=vod-detail-id-" . $_GET['id'] . ".html";
     $contentInfo = $readcontent->MloocCurl($contenturl);
 }
 
